@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    background: #3a3a3a
+}
+
+.back-color-yellow {
+    background: #ffc107;
+}
+
+.back-color-gray {
+    background: #505050;
+}
+
+.labelinput {
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 40px;
+    width: 180px;
+    margin: 10px;
+
+}
+.inputfile {
+    width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.fake-button-wrapper {
+    width: 70%;
+}
+
+.font-style {
+    color: white;
+    font-family: "Verdana", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.font-style-dark {
+    color: #3a3a3a;
+    font-family: "Verdana", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+.header {
+    background: #2c2c2c;
+    height: 100px;
+    font-size: 35px;
+}
+
+.justify-content-center {
+    display: flex;
+    justify-content: center;
+}
+
+.justify-content-space-around {
+    justify-content: space-around;
+}
+
+.align-items-center {
+    display: flex;
+    align-items: center;
+}
+
+.space-sm {
+    padding: 10px;
+}
+
+.space-xl {
+    padding: 100px;
+}
+
+.flex-column {
+    flex-direction: column;
+}
