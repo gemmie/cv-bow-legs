@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bow Legs</title>
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
+</head>
+
+<body>
+    <div>
+        <div class="content align-items-center flex-column space-xl">
+            <span class="align-items-center font-style-title">Bow Legs</span>
+            <span class="font-style space-me">Select an x-ray image:</span>
+            <form method=post enctype=multipart/form-data>
+                <div class="space-sm align-items-center justify-content-space-around font-style">
+                    <div class="choose-file-button label-input back-color-gray align-items-center justify-content-center">
+                        <input class="inputfile" type="file" name="file" id="xray">
+                        <label for="xray">choose file</label>
+                    </div>
+                </div>
+                <div class="align-items-center justify-content-center">
+                        <input type="submit"  value=Upload class="upload-button label-input back-color-yellow font-style-dark"/>
+                </div>
+                <div class ="align-items-center justify-content-center">
+                    <img id="imagePreview"/>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</body>
+<footer>
+    <script src="../static/src.js"></script>
+</footer>
+</html>

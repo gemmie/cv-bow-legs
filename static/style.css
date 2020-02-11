@@ -1,3 +1,7 @@
+#imagePreview {
+    height: 512px;
+}
+
 body {
     margin: 0;
     background: #3a3a3a
@@ -11,12 +15,13 @@ body {
     background: #505050;
 }
 
-.labelinput {
-    border: 1px solid black;
+.label-input {
+    border: none;
     border-radius: 4px;
     height: 40px;
     width: 180px;
     margin: 10px;
+    box-shadow: 1px 1px 10px -4px #3a3a30;
 
 }
 .inputfile {
@@ -28,19 +33,25 @@ body {
 	z-index: -1;
 }
 
-.fake-button-wrapper {
-    width: 70%;
-}
 
 .font-style {
     color: white;
     font-family: "Verdana", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+}
+
+.font-style-title {
+    color: white;
+    font-family: "Verdana", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:40px;
+    font-variant: small-caps;
 }
 
 .font-style-dark {
     color: #3a3a3a;
     font-family: "Verdana", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 17px;
+    font-variant: small-caps;
 }
 .header {
     background: #2c2c2c;
@@ -66,10 +77,22 @@ body {
     padding: 10px;
 }
 
+.space-me {
+    padding: 30px;
+}
+
 .space-xl {
     padding: 100px;
 }
 
 .flex-column {
     flex-direction: column;
+}
+
+.upload-button:hover {
+    background-color: #ffc1078c;
+}
+
+.choose-file-button:hover {
+    background-color: gray;
 }
