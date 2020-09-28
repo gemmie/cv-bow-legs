@@ -1,4 +1,4 @@
-Aplikacja ta dostarcza web-owy interfejs do aplikacji, która ze zdjęć rętgenowskich wyciąga kości nóg.
+Aplikacja ta dostarcza web-owy interfejs do aplikacji, która ze zdjęć rentgenowskich wyciąga kości nóg.
 
 Została ona zbudowana w oparciu o projekt oraz model dostarczony na zajęciach z Computer Vision.
 
