@@ -22,7 +22,7 @@ mock==3.0.5
 networkx==2.4
 numpy==1.18.0
 opencv-contrib-python==3.4.2.16
-opencv-python==3.4.2.16
+opencv-python==3.4.7.28
 pandas==0.25.3
 Pillow==7.0.0
 protobuf==3.11.2
